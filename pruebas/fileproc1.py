@@ -8,6 +8,7 @@
 #CARGAR ARCHIVO Y QUITAR COMAS 
 
 import string
+import numpy as np
 
 name_archivo=input("ingresar archivo:   ")
 datos=open(name_archivo,"r")
@@ -27,6 +28,9 @@ list_new = [item.replace('sb','1101') for item in list_new]
 list_new = [item.replace('sll','1110') for item in list_new]
 list_new = [item.replace('srl','1111') for item in list_new]
 
+arreglo1 = np.asarray(list_new)
+
+print (arreglo1)
 #with open(name_archivo,"r") as f:
  #   text = f.read()
   #  list_new = [item.replace()]
@@ -37,5 +41,5 @@ list_new = [item.replace('srl','1111') for item in list_new]
     
 #list_new = [item.replace('addi','0001') for item in stripped]
 #list_new = [item.replace('add','0000') for item in stripped]
-print(list_new)
+#print(list_new)
 
