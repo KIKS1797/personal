@@ -14,4 +14,6 @@ instructions you want to translate
 
 The output binary codes will be stored in a file called 'output.txt'
 
+This project was worked in the following repo:
 
+https://github.com/KIKS1797/personal/tree/main/Proyecto%20de%20python%20Terminado
